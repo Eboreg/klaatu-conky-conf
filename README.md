@@ -3,6 +3,8 @@ My Conky config.
 
 The Lua script is supremely ugly with those hard-coded position values. Maybe it can be done better, but this was all the Lua I could put up with for now.
 
+Also, I don't know why the `${top mem N}` all say `inf`. Maybe I'll dig into that some day. But then again, maybe not.
+
 ![Conky screendump](/screenshot.png)
 
 ## Usage
