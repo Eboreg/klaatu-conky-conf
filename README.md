@@ -1,5 +1,5 @@
 # klaatu-conky-conf
-My Conky config.
+My Conky config. It's kind of based on [severindupouy's config](https://github.com/severindupouy/conky.conf), so thank you for that one.
 
 The Lua script is supremely ugly with those hard-coded position values. Maybe it can be done better, but this was all the Lua I could put up with for now.
 
