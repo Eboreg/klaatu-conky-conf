@@ -23,6 +23,6 @@ echo `date +'%F %T'`: $DUPLICATI__PARSED_RESULT > /var/log/duplicati-[backup nam
 
 All that said and done -- place `conky.*` in `~/.config/conky/` and you're ready to roll.
 
-## Scripts
+## Startup script
 
-In `bin/` are two scripts I run at startup in Ubuntu. They use the `-m` parameter to display Conky on both my screens. This parameter is not available in Conky v1.10.8, which is the version currently (Oct 2020) available in Ubuntu's repository, hence the need for compiling it myself. They also use `-p 1`, making Conky pause for one second before doing anything, which turned out to be the solution for the fonts getting the wrong sizes on startup.
+In `bin/` is a script I run at startup in Ubuntu. It uses the `-m` parameter to display Conky on both my screens. This parameter is not available in Conky v1.10.8, which is the version currently (Oct 2020) available in Ubuntu's repository, hence the need for compiling it myself. It also uses `-p 1` when starting the first instance, making Conky pause for one second before doing anything, which turned out to be the solution for the fonts getting the wrong sizes on startup.

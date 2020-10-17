@@ -1,4 +1,0 @@
-#!/bin/sh
-/usr/local/bin/conky -m 1 -d -p 1
-
-
