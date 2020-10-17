@@ -11,7 +11,7 @@ You need [Conky](https://github.com/brndnmtthws/conky/) with [Cairo](https://cai
 
 You also need [Font Awesome for desktop](https://fontawesome.com/how-to-use/on-the-desktop/setup/getting-started).
 
-My default settings will probably not work for you. You have to find out your network interface names and `hwmon` integers for yourself and change `conky.conf` accordingly. [http://conky.sourceforge.net/variables.html] is a great help.
+My default settings will probably not work for you. You have to find out your network interface names and `hwmon` integers for yourself and change `conky.conf` accordingly. http://conky.sourceforge.net/variables.html is a great help.
 
 The _Backup_ section is based on a highly sofisticated hack where I make my backup program (Duplicati) run a variant of this script after every backup:
 
@@ -19,7 +19,7 @@ The _Backup_ section is based on a highly sofisticated hack where I make my back
 echo `date +'%F %T'`: $DUPLICATI__PARSED_RESULT > /var/log/duplicati-[backup name].log
 ```
 
-All that said and done -- place conky.* in ~/.config/conky/ and you're ready to roll.
+All that said and done -- place `conky.*` in `~/.config/conky/` and you're ready to roll.
 
 ## Scripts
 
