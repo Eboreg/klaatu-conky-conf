@@ -86,6 +86,5 @@ function show_backup_log(display, log_name, filename, y)
         f:close()
         return true
     end
-    f:close()
     return false
 end
